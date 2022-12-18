@@ -1,0 +1,97 @@
+* {
+    padding: 1;
+    margin: 1;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.title {
+    color: orange;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 2px;
+}
+
+.display {
+    color: orange;
+    font-size: 24px;
+    text-align: center;
+    margin-top: .5em;
+    margin-bottom: 1em;
+    justify-content: center;
+    }
+
+
+body{
+  background: #11998e;
+  background: -webkit-linear-gradient(to right, #ddef38, #1c0ed6); 
+  background: linear-gradient(to right, #38efe0, #0b08a5);
+}
+
+div {
+    width: 600px;
+    height: 180px;
+    border: solid 3px rgb(161, 5, 5);
+    justify-content: center;
+    
+}
+
+div > div :nth-child(1) {
+  font-size: 3em;
+}
+div > div :nth-child(2) {
+  text-align: center;
+  display: inline;
+}
+div > div :nth-child(3) {
+  text-align: center;
+  display: inline;
+}
+.row > div{
+  background: rgb(110, 65, 65);
+}
+
+.hide {
+  display: none;
+}
+
+.container {
+  margin: 0 auto;
+  display: grid;
+}
+
+.col-sm {
+  border: 1px solid orange;
+  min-width: 100px;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 50px;
+}
+
+.PlayerO {
+  color: rgb(13, 241, 184);
+}
+
+.PlayerX {
+  color: #0b08a5;
+}
+
+#reset {
+  background-color: rgb(161, 5, 5);
+  color: orange;
+  padding: 8px;
+  border-radius: 9px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}
